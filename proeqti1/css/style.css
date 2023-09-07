@@ -1,0 +1,610 @@
+*{
+    box-sizing: border-box;
+}
+
+body, h1, h2, p, ul{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+img{
+    width: 100%;
+
+}
+
+
+
+header nav ul li a{
+    
+    width: 100%;
+    color: black;
+    margin-left: auto;
+   display: flex;
+     
+     text-align: center; 
+ }
+
+ nav{
+    display: flex;
+    
+ }
+ ul{
+    margin-left: auto;
+ }
+
+ /*
+ li{
+    justify-content: space-between;
+ }
+*/
+
+ header nav ul{
+    margin-left: auto;
+ }
+
+/* qvemot dawerili kodi ganivze alagebs*/
+
+header nav ul li{
+    display: inline-block;
+    margin-left: 20px;
+     } 
+
+ header nav{
+
+  padding: 10px 50px;
+    align-items: center;
+}
+
+.for{
+    color: rgba(0, 119, 255, 0.856);
+    margin-right: 7px;
+}
+
+.forheader1{
+    color: black;
+    padding: 10px 50px;
+    background-color: rgb(218, 213, 213); ;
+    display: flex;
+  
+}
+span{
+    color: rgba(0, 119, 255, 0.856);
+}
+
+.innar{
+    margin-right: 20px;
+}
+
+
+
+
+.right{
+    margin-left: auto;
+    color: rgb(124, 120, 120);
+}
+.black{
+    color:black;
+}
+
+.grey{
+font-size: larger;
+    color: rgb(124, 120, 120);
+}
+
+.h11{
+    font-size: 60px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+
+/*aq iwyeba gadmokopireba*/
+
+
+
+
+div[ class*=col-]{
+    padding: 15px;
+}
+
+.container{
+    max-width: 1800px;
+    margin: 0 auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.col-1{
+    width: 8.33%;
+   
+  
+}
+
+.col-2{
+    width: 16.66%;
+   
+}
+
+.col-3{
+    width: 25%;
+    
+  
+}
+
+.col-4{
+    width: 33.33%;
+   
+    
+}
+
+.col-5{
+    width: 41.33%;
+ 
+    
+}
+
+
+.col-6{
+    width: 50%;
+ 
+  
+}
+
+.col-7{
+    width: 58.33%;
+   
+   
+}
+
+.col-8{
+    width: 66.66%;
+    
+  
+}
+
+.col-9{
+    width: 75%;
+   
+   
+}
+
+.col-10{
+    width: 83.33%;
+    
+}
+
+.col-11{
+    width: 91.66%;
+   
+   
+}
+
+.col-12{
+    width: 100%;
+ 
+}
+
+
+
+.div_parent{
+    
+    padding: 204px 300px ;
+    background-image: url('../im/banner-image.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.199);
+    background-blend-mode: color;
+    text-align: center;
+}
+
+
+
+.buttons{
+    margin-right: auto;
+    padding-left: 110px;
+
+    
+}
+
+.sm{
+    padding-right: 110px;
+}
+
+.fora{
+    text-align: right;
+}
+.fh{
+    text-align: left;
+}
+
+.button{
+    margin-top: 20px;
+    padding: 25px 45px;
+    border-radius: 1px;
+    background-color: rgb(101, 187, 62);
+    color: white;
+    display: inline-block;
+    font-size: 25px;
+}
+
+
+
+
+
+.section{
+    padding:75px 5px;
+    
+}
+
+ .photo1{
+    padding: 187px 100px;  
+    background-image: url('../im/headphone-banner-2.jpg');
+ }
+
+ .photo2{
+    padding: 187px 100px;
+    background-image: url('../im/smart-watch.jpg');
+ }
+
+ .photo3{
+    padding: 187px 100px;
+    background-image: url('../im/4k-camera.jpg');
+ }
+
+
+.forh22{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 35px;
+}
+
+.line{
+    padding: 2px;
+    width: 62px;
+    margin: 0 auto;
+    background-color: black;
+}
+
+.section1{
+    padding:75px 5px;
+    
+}
+
+.sections{
+    padding:35px 5px;
+}
+.for1photo{
+    width: 100%;
+    padding: 157px ;
+   
+    margin: 0 auto;
+
+
+    background-image: url('../image2-300x300.jpg');
+    
+    
+ }
+
+
+ .for2photo{
+    width: 100%;
+    padding: 157px ;
+    background-image: url('../image1-300x300.jpg');
+    margin: 0 auto;
+    
+ }
+
+
+ .for3photo{
+    width: 100%;
+    padding: 157px ;
+    background-image: url('../image3-300x300.jpg');
+    margin: 0 auto;
+    
+ }
+
+ .for4photo{
+    
+    width: 100%;
+    padding: 157px ;
+    background-image: url('../watch-3-300x300.jpg');
+    margin: 0 auto;
+    
+ }
+
+ .for5photo{
+    
+    width: 100%;
+    border: 2px solid rgba(0, 119, 255, 0.856);
+    margin: 0 auto;
+    
+ }
+
+
+ .parents{
+    position: relative;
+    border: 1px solid rgba(128, 128, 128, 0.178);
+    padding: 5px 60px;
+    margin: 5px 5px;
+ }
+
+ .h21{
+    margin-top: 20px;
+    padding: 20px;
+ }
+ .sat{
+    padding: 20px 50px;
+    
+    margin: 0 auto;
+ }
+
+ .mar{
+
+    margin-left: 77px;
+
+ }
+
+ .sale{
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    color: white;
+  text-align: center;
+  padding-top: 20px;
+    border-radius: 100%;
+    background-color: rgb(9, 141, 26);
+    margin-left: -50px;
+    font-size: 25px;
+    
+ }
+ 
+
+
+ .sectionimage{
+    width: 100%;
+    height: 100px;
+    background-repeat: no-repeat;
+ }
+ .smart1{
+    padding: 20px;
+    margin-top: 120px;
+ }
+
+.button2{
+    text-align: center;
+    margin-top: 400px;
+    margin-bottom: 80px;
+}
+
+.smartb{
+    padding-top: 70px ;
+    padding-bottom: 60px;
+    background-color: rgba(211, 208, 208, 0.644);
+}
+
+.button3{
+    text-align: center;
+    margin-bottom: 80px;
+
+}
+.blue{
+    color: rgb(14, 14, 196);
+    border: white;
+    background-color: white;
+}
+
+.del{
+    text-decoration: line-through;
+}
+
+span {
+    content: "\00A3";
+  }
+
+  .icon2{
+    color: rgba(0, 119, 255, 0.856);
+    padding: 25px;
+    font-size: 50px;
+    margin-top: 10px;
+  }
+
+  .section2{
+    padding: 50px;
+    background-color: rgba(233, 231, 231, 0.637);
+  }
+  .item1{
+    display: flex;
+    color: grey;
+
+    font-size: larger;
+  }
+
+  .item1 h4{
+    color: rgba(0, 119, 255, 0.856);
+    font-weight:bolder;
+    vertical-align: top;
+    font-size: larger;
+  }
+  .black_bk{
+    background-color: black;
+    padding: 60px;
+  }
+
+  .for_h2{
+    color: white;
+    margin-bottom: 25px;
+    font-size: 30px;
+    
+  }
+  .for_p1{
+    color: rgb(168, 160, 160);
+    margin-bottom: 20px;
+    font-size: 25px;
+  }
+
+  .for_h3{
+    color: rgb(168, 160, 160);
+    margin-left: 10px;
+    font-size: 22px;
+  }
+
+.par{
+    padding-top: 10px;
+}
+  .ic{
+    margin-top: 5px;
+  }
+
+  .for_h33{
+    color: white;
+   
+    font-size: 23px;
+
+  }
+
+  .item_text{
+    margin-bottom: 10px;
+  }
+
+  .forp4{
+    margin-top: -20px;
+  }
+
+  .forul{
+    text-align: left;
+  
+  }
+
+  .form{
+    padding: 20px 0;
+  }
+
+  .submit{
+    padding: 7px  25px;
+    color: white;
+    background-color: rgb(25, 108, 202);
+    margin-left: -17px;
+  }
+
+  .inp1{
+
+
+    padding: 10px 0;
+    width: 100%;
+    
+  }
+
+
+
+
+.footer{
+ background-color: black;
+ padding: 5px;
+ border-top: 1px solid rgb(51, 50, 50);
+
+}
+
+.pf{
+    color: white;
+    margin-top: 31px;
+}
+.ficonwhite{
+    color: rgb(194, 186, 186);
+    font-size: 13px;
+}
+
+.logo22{
+    display: inline-block;
+  width: 30px;
+    height: 2px;
+}
+
+.col-2 ul li{
+    padding: 13px 0;
+}
+
+.payment ul li{
+    display: inline-block;
+}
+
+.logo img{
+    height: 100%;
+}
+
+.forpayment{
+    width: 100%;
+    padding: 20px;
+   
+    margin: 0 auto;
+}
+
+
+
+.button4{
+    background-color: rgb(12, 99, 212);
+    padding: 10px 15px;
+    color: white;
+    display: block;
+    margin-bottom: 30px;
+}
+.aparent{
+   
+   color: black;
+   display: flex;
+   
+
+}
+
+.aparent a i{
+   
+   display: flex;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 100%;
+    color:black;
+    width:50px;
+    height:50px;
+    margin-right: 10px;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.payment img{
+    max-width: 100%;
+    display: block;
+    height: 61px;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 768px){
+
+    div[class*="col-"]{
+        width: 100%;
+    }
+
+ .div_parent{
+        word-wrap: break-word;
+        padding: 150px;
+        background-color: rgba(24, 102, 218, 0.411);
+
+ }   
+ .button2{
+    padding-top: 100px;
+    padding-bottom: 40px;
+ }
+
+}
